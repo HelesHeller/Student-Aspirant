@@ -31,12 +31,12 @@ public:
 
 int main() {
     Student student("John Doe", 20);
-    student.display(); // Виведе інформацію про студента
+    student.display(); 
 
     std::cout << "----------------------" << std::endl;
 
     Aspirant aspirant("Jane Smith", 25, "Machine Learning");
-    aspirant.display(); // Виведе інформацію про аспіранта
+    aspirant.display(); 
 
     return 0;
 }
